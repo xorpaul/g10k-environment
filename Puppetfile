@@ -2,7 +2,7 @@ moduledir 'external_modules'
 mod 'puppetlabs/stdlib', '4.6.0'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/inifile'
-mod "saz/resolv_conf", "3.0.5"
+#mod "saz/resolv_conf", "3.0.5"
 
 mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
