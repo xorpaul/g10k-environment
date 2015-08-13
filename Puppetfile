@@ -1,5 +1,5 @@
 moduledir 'external_modules'
-mod 'puppetlabs/stdlib', '4.7.0'
+mod 'puppetlabs/stdlib', '4.6.0'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/inifile'
 mod 'puppetlabs/apt', '1.8.0'
