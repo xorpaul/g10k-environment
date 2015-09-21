@@ -13,8 +13,7 @@ mod 'apache',
   :tag => '1.6.0'
 
 mod 'aws',
-  :git => 'https://github.com/puppetlabs/puppetlabs-aws.git',
-  :branch => '1.1.x'
+  :git => 'https://github.com/puppetlabs/puppetlabs-aws.git'
 
 mod 'firewall',
   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
