@@ -17,3 +17,5 @@ mod "puppetlabs/vcsrepo", :latest
 mod "puppetlabs/xinetd", :latest
 mod "saz/locales", :latest
 mod "saz/resolv_conf", :latest
+mod 'logrotate'
+  :git => 'https://github.com/yo61/puppet-logrotate.git'
