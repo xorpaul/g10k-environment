@@ -1,0 +1,12 @@
+moduledir = "external_modules"
+
+[git]
+
+  [stdlib]
+  url = "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+  branch = "master"
+
+[forge]
+  [apt]
+  module = "puppetlabs/apt"
+  tag = "2.1.1"
