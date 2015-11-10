@@ -1,3 +1,4 @@
 moduledir 'external_modules'
-mod 'logrotate'
-  :git => 'https://github.com/yo61/puppet-logrotate.git'
+mod 'mayflower/php'
+  :git => 'https://github.com/mayflower/puppet-php.git',
+  :tag => '3.4.2'
