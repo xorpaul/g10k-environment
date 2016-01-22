@@ -10,7 +10,7 @@ mod 'apt',
 
 mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
-  :tag => '1.6.0'
+  :link => 'true'
 
 mod 'aws',
   :git => 'https://github.com/puppetlabs/puppetlabs-aws.git'
