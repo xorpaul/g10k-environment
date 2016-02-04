@@ -17,7 +17,8 @@ mod 'aws',
 
 mod 'firewall',
   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-  :commit => '7281b0a771ec818578f3d4b4a70c44294a525a75'
+  :commit => '7281b0a771ec818578f3d4b4a70c44294a525a75',
+  :ignore-unreachable => 'true'
 
 mod 'puppetlabs/ntp', '3.3.0'
 mod 'camptocamp/postfix', '1.2.2'
