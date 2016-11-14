@@ -1,2 +1,2 @@
 moduledir 'external_modules'
-mod 'puppetlabs/inifile', :latest
+mod 'puppetlabs/stdlib', '2.3.0'
