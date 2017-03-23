@@ -1,5 +1,6 @@
 moduledir 'external_modules'
 mod 'puppetlabs/stdlib', '4.6.0'
+mod 'mayflower-php', '4.0.0-beta1'
 mod 'puppetlabs/concat', '2.2.0'
 mod 'puppetlabs/inifile', '1.6.0'
 mod "ajcrowe/supervisord",  '0.6.1'
