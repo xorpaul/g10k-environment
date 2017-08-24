@@ -1,2 +1,3 @@
-moduledir 'external_modules'
-mod 'puppetlabs/inifile', :latest
+mod 'firewall',
+  :git => 'https://.com/puppetlabs/puppetlabs-firewall.git',
+  :branch => 'master'
