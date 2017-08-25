@@ -1,3 +1,2 @@
-mod 'firewall',
-  :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-  :branch => 'master'
+forge.baseUrl https://.com/foobar
+mod 'puppetlabs/firewall', :latest
