@@ -1,4 +1,11 @@
 mod 'sensu',
-  :git => 'https://github.com/sensu/sensu-puppet.git',
-  :commit => '8f4fc5780071c4895dec559eafc6030511b0caaa',
-  :install_path => 'external'
+     :git => 'https://github.com/sensu/sensu-puppet.git',
+     :branch => 'master'
+
+mod 'firewall',
+     :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
+     :branch => 'master'
+
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/concat'
+
