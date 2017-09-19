@@ -1,4 +1,4 @@
 mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
-  :link => true,
+  :branch => :control_branch,
   :default_branch => 'master'
