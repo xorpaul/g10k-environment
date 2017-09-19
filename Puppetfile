@@ -1,3 +1,4 @@
-mod 'apt',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :fallback => 'noooopee| foooooobbaar|master'
+mod 'apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+  :link => true,
+  :default_branch => 'master'
