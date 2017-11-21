@@ -6,5 +6,3 @@ mod 'localstuff',
      :local => 'true'
 
 mod 'localstuff2', :local => true
-mod 'localstuff3', :local => false
-
