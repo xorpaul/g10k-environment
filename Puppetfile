@@ -1,2 +1,1 @@
-moduledir 'external_modules'
-mod 'puppetlabs/inifile', :latest
+mod 'vsh/gitlab'
