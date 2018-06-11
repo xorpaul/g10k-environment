@@ -1,2 +1,2 @@
-moduledir 'external_modules'
-mod 'puppetlabs/inifile', :latest
+forge.cacheTtl 5h
+mod 'puppetlabs/inifile'
