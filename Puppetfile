@@ -1,2 +1,4 @@
 moduledir 'external_modules'
-mod 'puppetlabs/inifile', :latest
+mod 'puppetlabs/stdlib', :latest
+moduledir 'base_modules'
+mod 'puppetlabs/apt', :latest
