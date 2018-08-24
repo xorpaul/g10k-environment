@@ -1,2 +1,2 @@
 forge.cacheTtl 5h
-mod 'puppetlabs/inifile'
+mod 'puppetlabs/inifile', :latest
