@@ -1,4 +1,4 @@
-mod 'apache',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+mod 'g10k-test-module',
+  :git => 'https://github.com/xorpaul/g10k-test-module.git',
   :branch => :control_branch,
-  :default_branch => 'master'
+  :default_branch => 'fail'
