@@ -48,3 +48,6 @@ mod 'elasticsearch',
   :git => 'https://github.com/elastic/puppet-elasticsearch.git',
   :commit => 'aa8c21de803ed23386223c66cf516a4d5567dc33'
 
+mod 'g10k_testmodule',
+  :git => 'https://github.com/xorpaul/g10k_testmodule.git',
+  :branch => 'symlinks'
