@@ -1,3 +1,3 @@
-mod 'firewall',
-  :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-  :tag => '1.15.3'
+mod 'test',
+  :git => 'https://github.com/xorpaul/g1ok_testmodule.git',
+  :branch => 'update_master'
