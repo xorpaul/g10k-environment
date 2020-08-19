@@ -29,7 +29,7 @@ mod "puppetlabs/accounts", :latest
 
 mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => '2.1.x'
+  :ref => '2.4.0'
 
 mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
