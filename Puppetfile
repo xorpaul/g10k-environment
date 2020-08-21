@@ -6,7 +6,7 @@ mod "saz/resolv_conf", "3.0.5"
 
 mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => '2.1.x'
+  :ref => 'v7.5.0'
 
 mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
