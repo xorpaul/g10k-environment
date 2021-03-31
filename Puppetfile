@@ -1,3 +1,3 @@
 mod 'firewall',
-  :git => 'git@github.com:puppetlabs/puppetlabs-firewall.git',
+  :git => 'git@local.git.server:puppetlabs/puppetlabs-firewall.git',
   :tag => 'v3.0.0'
