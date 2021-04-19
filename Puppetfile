@@ -4,7 +4,7 @@ mod 'sensu',
 
 mod 'firewall',
      :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-     :branch => 'master'
+     :branch => 'main'
 
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
