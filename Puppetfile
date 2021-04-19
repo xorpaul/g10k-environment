@@ -5,4 +5,5 @@ mod 'sensu',
 
 mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+  :ref => 'master',
   :install_path => 'modules/external'
