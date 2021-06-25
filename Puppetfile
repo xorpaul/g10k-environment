@@ -1,23 +1,8 @@
 moduledir 'external_modules'
 mod 'puppetlabs/stdlib', '4.6.0'
-mod 'puppetlabs/concat'
-mod 'puppetlabs/inifile'
-mod "saz/resolv_conf", "3.0.5"
-
-mod 'apt',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => 'v7.5.0'
-
-mod 'apache',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
-  :tag => '1.6.0'
-
-mod 'aws',
-  :git => 'https://github.com/puppetlabs/puppetlabs-aws.git'
-
-mod 'firewall',
-  :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-  :commit => '7281b0a771ec818578f3d4b4a70c44294a525a75'
-
-mod 'puppetlabs/ntp', '3.3.0'
-mod 'camptocamp/postfix', '1.2.2'
+mod 'puppetlabs/apt', '1.8.0'
+mod 'camptocamp/postfix', '1.1.0'
+mod "puppetlabs/xinetd", :latest
+mod 'quagga',
+  :git => 'https://github.com/xorpaul/g10k_testmodule.git',
+  :ref => '6f35e16bad80ec8de8c8f3059eac7d1c98df2327'
